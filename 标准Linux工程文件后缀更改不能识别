@@ -1,0 +1,9 @@
+主要处理在linux工程中，将标准文件更改后缀名导致不能识别问题。
+ 
+    例如：*.mk *.mak都属于makefile文件可以在files->setting下增加如下参数
+    
+        "files.associations": {
+        "*.mk":"makefile",
+        "*.mak":"makefile",
+        "*.db":"c"
+    }      
