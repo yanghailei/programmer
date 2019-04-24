@@ -1,6 +1,8 @@
-用stat可以查看一个文件的比较详细的信息
-检查该目录所有文件占用的空间应该用这个命令：du
-
+## 用stat可以查看一个文件的比较详细的信息
+## 检查该目录所有文件占用的空间应该用这个命令：du
+## install ubuntu from usb device
+  sudo usb-creator-gtk 
+  
 linu文件七种类型
   d 目录。
   l 符号链接(指向另一个文件)。
